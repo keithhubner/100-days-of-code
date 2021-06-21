@@ -2,8 +2,8 @@
 
 ### Day 1: June 21, 2021 
 
-**Time spent: 30mins
-**Today's Progress**: Started following course on building to-do list app using CSS and JS
+**Time spent: 1 hour
+**Today's Progress**: Started following course on building to-do list app using CSS and JS, formatting using bootstap and fontawsome 
 
 
 
