@@ -1,5 +1,8 @@
 <html lang="en">
 <head>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -41,6 +44,30 @@
 
   </div>
   
+
+
+
+
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDkw9TESrqQ42Vp6Z-GD7XLfOf2T0s7UV0",
+    authDomain: "snappy-catcher-111209.firebaseapp.com",
+    projectId: "snappy-catcher-111209",
+    storageBucket: "snappy-catcher-111209.appspot.com",
+    messagingSenderId: "600672006845",
+    appId: "1:600672006845:web:67ee32dd37e1dec7a1bdd4",
+    measurementId: "G-JQHQLYP5X5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  
+  const db = firebase.firestore();
+  db.settings({ timstampsInSnapshots: true});
+
+</script>
 
   <script src="app.js"></script>
 </body>

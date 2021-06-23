@@ -1,5 +1,23 @@
 const addForm = document.querySelector('.add');
 const list = document.querySelector('.todos');
+
+// create elements and render todo
+function renderTask(doc) {
+    let li = document.createElement('li');
+    let name =document.createElement('span');
+    
+
+    li.setAttribute('data-id', doc.id);
+
+    name.textContent = doc.data().name;
+
+
+    li.appendChild(name);
+
+    list.appendChild(li);
+
+}
+
 const search = document.querySelector('.search input');
 
 const generateTemplate = todo => {
@@ -15,6 +33,22 @@ const generateTemplate = todo => {
 
 
 }
+
+
+db.collection('habbits').get().then((snapshot) => {
+//    console.log(snapshot.docs);
+snapshot.docs.forEach(doc => {
+//console.log(doc.data);
+
+renderTask(doc);
+
+})
+
+})
+
+
+
+
 
 addForm.addEventListener('submit', e => {
 
