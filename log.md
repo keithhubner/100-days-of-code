@@ -31,7 +31,8 @@ Continuation of to-do list application:
 - Removed static HTML list items
 - Added new tasks to the database via the form
 - Deleted tasks from the db via the UI
-- 
+- Real time listeners 
+- Updating the list in real time when adding and removing tasks
 
 
 **Link(s) to work**
