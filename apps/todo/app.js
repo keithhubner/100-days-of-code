@@ -1,6 +1,7 @@
 const addForm = document.querySelector('.add');
 const list = document.querySelector('.todos');
 
+//const form = document.querySelector('form');
 // create elements and render todo
 function renderTask(doc) {
     let li = document.createElement('li');
@@ -20,11 +21,11 @@ function renderTask(doc) {
 
 const search = document.querySelector('.search input');
 
-const generateTemplate = todo => {
+const generateTemplate = (todo, id) => {
 
     const html = `
-    <li class="list-group-item d-flex justify-content-between align-items-center">
-        <span>${todo}</span>
+    <li data-id="${id}" class="list-group-item d-flex justify-content-between align-items-center">
+        <span>${todo.name}</span>
         <i class="far fa-trash-alt delete"></i>
       </li>
     `;    
@@ -40,8 +41,8 @@ db.collection('habbits').get().then((snapshot) => {
 snapshot.docs.forEach(doc => {
 //console.log(doc.data);
 
-renderTask(doc);
-
+//renderTask(doc);
+generateTemplate(doc.data(), doc.id);
 })
 
 })
@@ -56,9 +57,26 @@ addForm.addEventListener('submit', e => {
 
     const todo = addForm.add.value.trim().toLowerCase();
 
+    const now = new Date();
+
 
     if(todo.length){
-        generateTemplate(todo);
+
+        //generateTemplate(todo);
+
+        const newtodo = {
+            name: todo,
+            created_at: firebase.firestore.Timestamp.fromDate(now),
+
+
+        };
+
+        db.collection('habbits').add(newtodo).then(() => {
+        console.log('todo added');
+        }).catch(err => {
+            console.log(err);
+        });
+
         addForm.reset();
     }
 
@@ -69,9 +87,21 @@ addForm.addEventListener('submit', e => {
 
 list.addEventListener('click', e => {
 
-    if (e.target.classList.contains('delete') )
-        e.target.parentElement.remove();
-})
+    if (e.target.classList.contains('delete')){
+        const id = e.target.parentElement.getAttribute('data-id');
+//console.log(id);
+
+db.collection('habbits').doc(id).delete().then(() => {
+
+    console.log('recipe deleted');
+});
+
+    }
+    });
+
+
+        //e.target.parentElement.remove();
+
 
 const filterTodos = (term) => {
 

@@ -25,6 +25,14 @@ Continuation of to-do list application:
 - Using firebase firestore for persistant storage of data.
 - Creating elements from database values 
 
+### Day 4: June 24, 2021 
+**Today's Progress**: 
+- Fixed rendering of data from db into html 
+- Removed static HTML list items
+- Added new tasks to the database via the form
+- Deleted tasks from the db via the UI
+- 
+
 
 **Link(s) to work**
 
