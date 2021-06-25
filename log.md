@@ -33,5 +33,16 @@ Continuation of to-do list application:
 - Deleted tasks from the db via the UI
 - Updating the list in real time when adding and removing tasks
 
+### Day 4: June 24, 2021 
+**Today's Progress**: 
+Mainly used @thenetninjauk YouTube video on Firebase Auth
+- Added navbar (from tutorial)
+- Added login / logout / profile actions
+- Added firestore auth
+- Create new user from form
+- Logging a user out
+- Logging a user in
+- Tracking user authentication status
+
 **Link(s) to work**
 
