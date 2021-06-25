@@ -33,7 +33,7 @@ Continuation of to-do list application:
 - Deleted tasks from the db via the UI
 - Updating the list in real time when adding and removing tasks
 
-### Day 4: June 24, 2021 
+### Day 5: June 25, 2021 
 **Today's Progress**: 
 Mainly used @thenetninjauk YouTube video on Firebase Auth
 - Added navbar (from tutorial)
