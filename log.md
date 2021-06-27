@@ -44,5 +44,14 @@ Mainly used @thenetninjauk YouTube video on Firebase Auth
 - Logging a user in
 - Tracking user authentication status
 
-**Link(s) to work**
+### Day 6: June 26, 2021 
+**Today's Progress**: 
+- Displaying data depending on logon status
+
+### Day 7: June 27, 2021 
+**Today's Progress**: 
+- Securing firestore to only allow access to data when authenticated
+- Displaying navbar links based on logon status, show login when logged out and log out when logged in
+
+
 
