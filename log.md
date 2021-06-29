@@ -58,5 +58,9 @@ Mainly used @thenetninjauk YouTube video on Firebase Auth
 - Adding userID to database record when task added
 - Showing user email details in user account screen
 
-
+### Day 9: June 29, 2021 
+**Today's Progress**: 
+- Event bubbling 
+- Event delegation 
+- Doing some more work on functions 
 
