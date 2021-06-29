@@ -53,5 +53,10 @@ Mainly used @thenetninjauk YouTube video on Firebase Auth
 - Securing firestore to only allow access to data when authenticated
 - Displaying navbar links based on logon status, show login when logged out and log out when logged in
 
+### Day 8: June 28, 2021 
+**Today's Progress**: 
+- Adding userID to database record when task added
+- Showing user email details in user account screen
+
 
 
