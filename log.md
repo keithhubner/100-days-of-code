@@ -64,7 +64,7 @@ Mainly used @thenetninjauk YouTube video on Firebase Auth
 - Event delegation 
 - Doing some more work on functions 
 
-### Day 9: June 29, 2021 
+### Day 10: June 30, 2021 
 **Today's Progress**: 
 - Starting to look at new recipes project
 - Playing with Bootstrap for imitial page layouts
