@@ -64,3 +64,10 @@ Mainly used @thenetninjauk YouTube video on Firebase Auth
 - Event delegation 
 - Doing some more work on functions 
 
+### Day 9: June 29, 2021 
+**Today's Progress**: 
+- Starting to look at new recipes project
+- Playing with Bootstrap for imitial page layouts
+- Designing recipe submission form
+- Adding and removing ingredients
+- Adding and removing steps 
