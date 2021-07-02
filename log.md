@@ -71,3 +71,8 @@ Mainly used @thenetninjauk YouTube video on Firebase Auth
 - Designing recipe submission form
 - Adding and removing ingredients
 - Adding and removing steps 
+
+### Day 11: July 1, 2021 
+**Today's Progress**: 
+- Design database structure for recipe submission
+- Start adding new recipe values to the database
