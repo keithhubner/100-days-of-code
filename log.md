@@ -67,7 +67,7 @@ Mainly used @thenetninjauk YouTube video on Firebase Auth
 ### Day 10: June 30, 2021 
 **Today's Progress**: 
 - Starting to look at new recipes project
-- Playing with Bootstrap for imitial page layouts
+- Playing with Bootstrap for initial page layouts
 - Designing recipe submission form
 - Adding and removing ingredients
 - Adding and removing steps 
