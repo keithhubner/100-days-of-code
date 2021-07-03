@@ -76,3 +76,12 @@ Mainly used @thenetninjauk YouTube video on Firebase Auth
 **Today's Progress**: 
 - Design database structure for recipe submission
 - Start adding new recipe values to the database
+
+### Day 12: July 2, 2021 
+**Today's Progress**: 
+- Battling with querySelector! Finally sorted it out!
+
+### Day 13: July 3, 2021 
+**Today's Progress**: 
+- Added more input fields and dropdowns for the recipe submission
+- Logging out the contents when submitted
