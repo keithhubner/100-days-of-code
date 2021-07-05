@@ -85,3 +85,13 @@ Mainly used @thenetninjauk YouTube video on Firebase Auth
 **Today's Progress**: 
 - Added more input fields and dropdowns for the recipe submission
 - Logging out the contents when submitted
+
+### Day 14: July 4, 2021 
+**Today's Progress**: 
+- None I played golf.... ;)
+
+### Day 15: July 5, 2021 
+**Today's Progress**: 
+- Still working through getting all the recipe values right. 
+- Creating additional ingredients, amounts and measures then collecting all these values
+- Getting values from dropdowns 
