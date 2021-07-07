@@ -95,3 +95,11 @@ Mainly used @thenetninjauk YouTube video on Firebase Auth
 - Still working through getting all the recipe values right. 
 - Creating additional ingredients, amounts and measures then collecting all these values
 - Getting values from dropdowns 
+
+### Day 16&17: July 6/7, 2021 
+**Today's Progress**: 
+- Started my recipe input form again, ripped out all the bootstrap css. 
+- Tidying up code and fixing naming and making comments 
+- Removing test code
+
+
