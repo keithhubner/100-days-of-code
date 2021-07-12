@@ -102,4 +102,14 @@ Mainly used @thenetninjauk YouTube video on Firebase Auth
 - Tidying up code and fixing naming and making comments 
 - Removing test code
 
+### Day 18&19: July 8/9, 2021 
+**Today's Progress**: 
+- Deciding when to create the recipe in the database
+- Working out if I should add ingredients to the db as they are added to the form, or adding them all together at the end.
+- Trying to work out how to update the the db when values are changed in the recipe
+- Working out what form validation might be needed
 
+### Day 20: July 12, 2021 
+**Today's Progress**: 
+- Yup I had the weekend off! 
+- Working on login for site using firestore firebase auth
