@@ -114,7 +114,7 @@ Mainly used @thenetninjauk YouTube video on Firebase Auth
 - Yup I had the weekend off! 
 - Working on login for site using firestore firebase auth
 
-### Day 20: July 12, 2021 
+### Day 21: July 13, 2021 
 **Today's Progress**: 
 - Bringing in some of the tutorial stuff to my project 
 - Creating user sign up 
