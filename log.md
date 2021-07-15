@@ -120,3 +120,8 @@ Mainly used @thenetninjauk YouTube video on Firebase Auth
 - Creating user sign up 
 - Creating user login
 - Creating user logout
+
+### Day 22: July 15, 2021 
+**Today's Progress**: 
+- Trying to work out how to get the more complicated field values into JSON, mainly the multiple recipe ingredients and their amounts. 
+- Having a break from javascript and going to spend some time with CSS
