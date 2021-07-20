@@ -125,3 +125,8 @@ Mainly used @thenetninjauk YouTube video on Firebase Auth
 **Today's Progress**: 
 - Trying to work out how to get the more complicated field values into JSON, mainly the multiple recipe ingredients and their amounts. 
 - Having a break from javascript and going to spend some time with CSS
+
+### Day 22: July 20, 2021 
+**Today's Progress**: 
+- Trying to not pass out in the heat mainly! 
+- Started working through CSS course, playing with some basic examples. 
